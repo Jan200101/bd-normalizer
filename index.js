@@ -44,7 +44,7 @@ module.exports = class BDInjector extends Plugin {
                 //classNames[baseClassName] += ` pc-${camelCase}`;
                 this.prefixes.forEach(function(prefix) {
                     classNames[baseClassName] += ` ${prefix}-${camelCase}`;
-                }
+                })
             }
         }
     }
