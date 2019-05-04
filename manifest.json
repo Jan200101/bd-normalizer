@@ -1,0 +1,10 @@
+{
+  "name": "BD prefix injector",
+  "version": "1.0.0",
+  "description": "injects the BD prefix into classes using the existing normalizer",
+  "author": "Jan200101",
+  "license": "LGPLv3",
+  "optionalDependencies": [
+    "pc-classNameNormlizer"
+  ]
+}
